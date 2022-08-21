@@ -13,6 +13,7 @@
 		2F43C67628B2901D00EBCD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F43C67428B2901D00EBCD3B /* Main.storyboard */; };
 		2F43C67828B2902000EBCD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F43C67728B2902000EBCD3B /* Assets.xcassets */; };
 		2F43C67B28B2902000EBCD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F43C67928B2902000EBCD3B /* LaunchScreen.storyboard */; };
+		2F43C68328B2908900EBCD3B /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2F43C68228B2908900EBCD3B /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2F43C67728B2902000EBCD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F43C67A28B2902000EBCD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F43C67C28B2902000EBCD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F43C68228B2908900EBCD3B /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		2F43C66D28B2901D00EBCD3B /* CoreMLApp */ = {
 			isa = PBXGroup;
 			children = (
+				2F43C68228B2908900EBCD3B /* SqueezeNet.mlmodel */,
 				2F43C66E28B2901D00EBCD3B /* AppDelegate.swift */,
 				2F43C67028B2901D00EBCD3B /* SceneDelegate.swift */,
 				2F43C67228B2901D00EBCD3B /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				2F43C67328B2901D00EBCD3B /* ViewController.swift in Sources */,
 				2F43C66F28B2901D00EBCD3B /* AppDelegate.swift in Sources */,
 				2F43C67128B2901D00EBCD3B /* SceneDelegate.swift in Sources */,
+				2F43C68328B2908900EBCD3B /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
